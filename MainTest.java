@@ -14,6 +14,12 @@ public class MainTest extends TestCase {
         assertEquals(actual, expected);
     }
 
+    public void testPrintString () {
+        String actual = Main.printString();
+        String expected = "Print String";
+        assertEquals(actual, expected);
+    }
+
     @Override
     protected void tearDown() throws Exception {
         super.tearDown();
