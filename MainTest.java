@@ -8,6 +8,12 @@ public class MainTest extends TestCase {
         super.setUp();
     }
 
+    public void testPrintString () {
+        String actual = Main.printString();
+        String expected = someString;
+        assertEquals(actual, expected);
+    }
+
     @Override
     protected void tearDown() throws Exception {
         super.tearDown();
